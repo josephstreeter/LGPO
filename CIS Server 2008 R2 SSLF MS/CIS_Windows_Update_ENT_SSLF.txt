@@ -1,0 +1,38 @@
+; ----------------------------------------------------------------------
+; PROCESSING COMPUTER POLICY
+; Source file:  Registry.pol
+
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+NoAutoUpdate
+DWORD:0
+
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+AUOptions
+DWORD:3
+
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+ScheduledInstallDay
+DWORD:0
+
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+ScheduledInstallTime
+DWORD:3
+
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+NoAUShutdownOption
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+RescheduleWaitTimeEnabled
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+RescheduleWaitTime
+DWORD:5

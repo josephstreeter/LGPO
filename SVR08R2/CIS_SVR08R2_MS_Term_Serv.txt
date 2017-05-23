@@ -1,0 +1,26 @@
+
+;1.10.1 Always prompt for password upon connection
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fPromptForPassword
+DWORD:1
+
+
+;1.10.2 Set client connection encryption level
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+MinEncryptionLevel
+DWORD:3
+
+
+;1.10.3 Do not allow drive redirection
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableCdm
+DWORD:0
+
+;1.10.4 Do not allow passwords to be saved
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+DisablePasswordSaving
+DWORD:1

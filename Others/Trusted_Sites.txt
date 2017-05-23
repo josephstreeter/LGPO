@@ -1,0 +1,291 @@
+;Input file for Apply_LGPO_Delta to customize registry-based local policy settings.
+;
+; AGM Program Predefined Microsoft Update Trusted Sites settings 
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.update
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.update
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.windowsupdate
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.windowsupdate
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.update
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.update
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.windowsupdate
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.windowsupdate
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.update
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.update
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.windowsupdate
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.windowsupdate
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.update
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.update
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.windowsupdate
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.windowsupdate
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.update
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.update
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.windowsupdate
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com\*.windowsupdate
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\EscDomains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.update
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.update
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.windowsupdate
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com\*.windowsupdate
+https
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+http
+DWORD:0x00000002
+
+; Description.. 
+Computer
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\microsoft.com
+https
+DWORD:0x00000002

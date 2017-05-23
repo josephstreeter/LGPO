@@ -1,0 +1,217 @@
+
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall
+PolicyVersion
+DWORD:0x00000200
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+DefaultOutboundAction
+DWORD:0x00000000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+DefaultInboundAction
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+AllowLocalPolicyMerge
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+AllowLocalIPsecPolicyMerge
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+DisableNotifications
+DWORD:0x00000000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+DisableUnicastResponsesToMulticastBroadcast
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+EnableFirewall
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging
+LogDroppedPackets
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging
+LogSuccessfulConnections
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging
+LogFilePath
+SZ:%windir%\system32\logfiles\firewall\domainfw.log
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging
+LogFileSize
+DWORD:0x00004000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules
+387dade5-a0d0-4105-a501-20d4d620dc74
+SZ:v2.0|Action=Block|Active=TRUE|Dir=Out|Protocol=41|App=System|Name=@FirewallAPI.dll,-25352|Desc=@FirewallAPI.dll,-25358|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=FALSE|
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules
+cd7f933a-0c43-4009-9cc0-848b20749761
+SZ:v2.0|Action=Block|Active=TRUE|Dir=Out|Protocol=17|App=%SystemRoot%\\system32\\svchost.exe|Svc=iphlpsvc|Name=@FirewallAPI.dll,-25327|Desc=@FirewallAPI.dll,-25333|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=FALSE|
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile
+EnableFirewall
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile
+DefaultOutboundAction
+DWORD:0x00000000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile
+DefaultInboundAction
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile
+DisableNotifications
+DWORD:0x00000000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile
+DisableUnicastResponsesToMulticastBroadcast
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile
+AllowLocalPolicyMerge
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile
+AllowLocalIPsecPolicyMerge
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging
+LogFilePath
+SZ:%windir%\system32\logfiles\firewall\privatefw.log
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging
+LogFileSize
+DWORD:0x00004000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging
+LogDroppedPackets
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging
+LogSuccessfulConnections
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile
+EnableFirewall
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile
+DefaultOutboundAction
+DWORD:0x00000000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile
+DefaultInboundAction
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile
+DisableNotifications
+DWORD:0x00000000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile
+DisableUnicastResponsesToMulticastBroadcast
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile
+AllowLocalPolicyMerge
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile
+AllowLocalIPsecPolicyMerge
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging
+LogFilePath
+SZ:%windir%\system32\logfiles\firewall\publicfw.log
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging
+LogFileSize
+DWORD:0x00004000
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging
+LogDroppedPackets
+DWORD:0x00000001
+
+; Description
+Computer
+SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging
+LogSuccessfulConnections
+DWORD:0x00000001

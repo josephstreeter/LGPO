@@ -1,0 +1,28 @@
+;Input file for Apply_LGPO_Delta to customize registry-based local policy settings.
+;
+; AGM Program OEM settings 
+
+; Description.. 
+Computer
+Software\Microsoft\Windows\CurrentVersion\OEMInformation
+Manufacturer
+SZ:United States Army Golden Master Program
+
+; Description..
+Computer
+Software\Microsoft\Windows\CurrentVersion\OEMInformation
+SupportPhone
+SZ:(800) 966-7176
+
+; Description..
+Computer
+Software\Microsoft\Windows\CurrentVersion\OEMInformation
+SupportURL
+SZ:https://www.us.army.mil/suite/page/130061
+
+; Description..
+Computer
+Software\Microsoft\Windows\CurrentVersion\OEMInformation
+Logo
+SZ:c:\windows\system32\oemlogo.bmp
+

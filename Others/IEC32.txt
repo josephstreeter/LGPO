@@ -1,0 +1,39 @@
+;Input file for Apply_LGPO_Delta to customize registry-based local policy settings.
+;
+; AGM Program Internet Explorer Homepage settings 
+
+; Description..
+Computer
+Software\Microsoft\Internet Explorer\Main
+Default_Page_URL
+SZ:https://www.wisc.edu
+
+; Description..
+Computer
+Software\Microsoft\Internet Explorer\Main
+Start Page
+SZ:https://www.wisc.edu
+
+; Description..
+Computer
+Software\Microsoft\Internet Explorer\Main\EscHomePages
+HardAdmin
+SZ:https://www.wisc.edu
+
+; Description..
+Computer
+Software\Microsoft\Internet Explorer\Main\EscHomePages
+HardUser
+SZ:https://www.wisc.edu
+
+; Description..
+Computer
+Software\Microsoft\Internet Explorer\Main\EscHomePages
+SoftAdmin
+SZ:https://www.wisc.edu
+
+; Description..
+Computer
+Software\Policies\Microsoft\Messenger\Client\{9b017612-c9f1-11d2-8d9f-0000f875c541}
+Disabled
+DWORD:1

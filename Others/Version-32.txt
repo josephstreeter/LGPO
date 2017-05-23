@@ -1,0 +1,34 @@
+;Input file for Apply_LGPO_Delta to customize registry-based local policy settings.
+;
+; AGM Program Build Version settings 
+
+; Description.. 
+Computer
+Software\AGMProgram\Build
+Version
+SZ:9.0.0
+
+; Description..
+Computer
+Software\AGMProgram\Build\Security
+InstallDate
+SZ:01 August 2009
+
+; Description..
+Computer
+Software\AGMProgram\Build\Security
+module
+SZ:GroupPolicy
+
+; Description..
+Computer
+Software\AGMProgram\Build\Security
+Role
+SZ:Server2008 Member Server Build
+
+; Description..
+Computer
+Software\AGMProgram\Build\Security
+Template
+SZ:Server2008 x86
+

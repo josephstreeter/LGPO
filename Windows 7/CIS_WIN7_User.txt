@@ -1,0 +1,59 @@
+;1.13.1 Do not preserve zone information in file attachments
+User
+Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+SaveZoneInformation
+DWORD:2
+
+;1.13.2 Hide mechanisms to remove zone information
+User
+Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+HideZoneInfoOnProperties
+DWORD:1
+
+;1.13.3 Notify antivirus programs when opening attachments
+User
+Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+ScanWithAntiVirus
+DWORD:3
+
+;1.13.4 Remove CD Burning features (SSLF Only)
+;User
+;Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+;NoCDBurning
+;DWORD:1
+
+;1.13.5 Remove Security tab (SSLF Only)
+;User
+;Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+;NoSecurityTab
+;DWORD:1
+
+;1.13.6 Prevent access to registry editing tools (SSLF Only)
+;User
+;Software\Microsoft\Windows\CurrentVersion\Policies\System
+;DisableRegistryTools
+;DWORD:2
+
+;1.13.7 Password protect the screen saver
+User
+Software\Policies\Microsoft\Windows\Control Panel\Desktop
+ScreenSaverIsSecure
+SZ:1
+
+;1.13.8 Force specific screen saver
+User
+Software\Policies\Microsoft\Windows\Control Panel\Desktop
+SCRNSAVE.EXE
+SZ:scrnsave.scr
+
+;1.13.9 Screen Saver timeout
+User
+Software\Policies\Microsoft\Windows\Control Panel\Desktop
+ScreenSaveTimeOut
+SZ:600
+
+;1.13.10 Enable screen saver
+User
+Software\Policies\Microsoft\Windows\Control Panel\Desktop
+ScreenSaveActive
+SZ:1

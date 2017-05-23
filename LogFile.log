@@ -1,0 +1,362 @@
+----------------------------------------------------------------------
+INPUT FILES FOR REGISTRY-BASED POLICY:
+	Additional_Security.txt
+	Event_Log.txt
+	Internet_Comm.txt
+	Terminal_Services.txt
+	User.txt
+----------------------------------------------------------------------
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Additional_Security.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+	DCSettingIndex (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+	ACSettingIndex (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\Explorer
+	NoDataExecutionPrevention (REG_DWORD) = 0
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	DisableLocalMachineRunOnce (REG_DWORD) = 1
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	DisableLocalMachineRunOnce (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+	NoBackgroundPolicy (REG_DWORD) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+	NoGPOListChanges (REG_DWORD) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fAllowUnsolicited (REG_DWORD) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fAllowToGetHelp (REG_DWORD) = 0
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	NoDriveTypeAutoRun (REG_DWORD) = 255
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+	EnumerateAdministrators (REG_DWORD) = 0
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+	EnableSecureCredentialPrompting (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\HomeGroup
+	DisableHomeGroup (REG_DWORD) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Event_Log.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Application
+	MaxSize (REG_DWORD) = 32768
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Application
+	Retention (REG_SZ) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Security
+	MaxSize (REG_DWORD) = 81920
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Security
+	Retention (REG_SZ) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\System
+	MaxSize (REG_DWORD) = 32768
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\System
+	Retention (REG_SZ) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Internet_Comm.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Printers
+	DisableWebPnPDownload (REG_DWORD) = 1
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	NoPublishingWizard (REG_DWORD) = 1
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	NoWebServices (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Printers
+	DisableHTTPPrinting (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\SearchCompanion
+	DisableContentFileUpdates (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Messenger\Client
+	CEIP (REG_DWORD) = 2
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\DriverSearching
+	DontSearchWindowsUpdate (REG_DWORD) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Terminal_Services.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fPromptForPassword (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	MinEncryptionLevel (REG_DWORD) = 3
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fDisableCdm (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	DisablePasswordSaving (REG_DWORD) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  User.txt
+
+User Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+	SaveZoneInformation (REG_DWORD) = 2
+
+User Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+	HideZoneInfoOnProperties (REG_DWORD) = 1
+
+User Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+	ScanWithAntiVirus (REG_DWORD) = 3
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	ScreenSaverIsSecure (REG_SZ) = 1
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	SCRNSAVE.EXE (REG_SZ) = scrnsave.scr
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	ScreenSaveTimeOut (REG_SZ) = 600
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	ScreenSaveActive (REG_SZ) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+INPUT FILES FOR REGISTRY-BASED POLICY:
+	Additional_Security.txt
+	Event_Log.txt
+	Internet_Comm.txt
+	Terminal_Services.txt
+	User.txt
+----------------------------------------------------------------------
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Additional_Security.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+	DCSettingIndex (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+	ACSettingIndex (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\Explorer
+	NoDataExecutionPrevention (REG_DWORD) = 0
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	DisableLocalMachineRun (REG_DWORD) = 1
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	DisableLocalMachineRunOnce (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+	NoBackgroundPolicy (REG_DWORD) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+	NoGPOListChanges (REG_DWORD) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fAllowUnsolicited (REG_DWORD) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fAllowToGetHelp (REG_DWORD) = 0
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	NoDriveTypeAutoRun (REG_DWORD) = 255
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+	EnumerateAdministrators (REG_DWORD) = 0
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+	EnableSecureCredentialPrompting (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\HomeGroup
+	DisableHomeGroup (REG_DWORD) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Event_Log.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Application
+	MaxSize (REG_DWORD) = 32768
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Application
+	Retention (REG_SZ) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Security
+	MaxSize (REG_DWORD) = 81920
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\Security
+	Retention (REG_SZ) = 0
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\System
+	MaxSize (REG_DWORD) = 32768
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\EventLog\System
+	Retention (REG_SZ) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Internet_Comm.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Printers
+	DisableWebPnPDownload (REG_DWORD) = 1
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	NoPublishingWizard (REG_DWORD) = 1
+
+Computer Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+	NoWebServices (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Printers
+	DisableHTTPPrinting (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\SearchCompanion
+	DisableContentFileUpdates (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Messenger\Client
+	CEIP (REG_DWORD) = 2
+
+Computer Config:
+	Software\Policies\Microsoft\Windows\DriverSearching
+	DontSearchWindowsUpdate (REG_DWORD) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  Terminal_Services.txt
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fPromptForPassword (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	MinEncryptionLevel (REG_DWORD) = 3
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	fDisableCdm (REG_DWORD) = 1
+
+Computer Config:
+	Software\Policies\Microsoft\Windows NT\Terminal Services
+	DisablePasswordSaving (REG_DWORD) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+
+PROCESSING INPUT FILE FOR REGISTRY-BASED POLICY:  User.txt
+
+User Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+	SaveZoneInformation (REG_DWORD) = 2
+
+User Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+	HideZoneInfoOnProperties (REG_DWORD) = 1
+
+User Config:
+	Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+	ScanWithAntiVirus (REG_DWORD) = 3
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	ScreenSaverIsSecure (REG_SZ) = 1
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	SCRNSAVE.EXE (REG_SZ) = scrnsave.scr
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	ScreenSaveTimeOut (REG_SZ) = 600
+
+User Config:
+	Software\Policies\Microsoft\Windows\Control Panel\Desktop
+	ScreenSaveActive (REG_SZ) = 1
+
+POLICY SAVED.
+----------------------------------------------------------------------
+

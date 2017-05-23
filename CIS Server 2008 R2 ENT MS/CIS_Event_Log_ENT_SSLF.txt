@@ -1,0 +1,33 @@
+; ----------------------------------------------------------------------
+; PROCESSING COMPUTER POLICY
+; Source file:  Registry.pol
+
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Application
+Retention
+SZ:0
+
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Application
+MaxSize
+DWORD:32768
+
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Security
+Retention
+SZ:1
+
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Security
+MaxSize
+DWORD:81920
+
+Computer
+Software\Policies\Microsoft\Windows\EventLog\System
+Retention
+SZ:1
+
+Computer
+Software\Policies\Microsoft\Windows\EventLog\System
+MaxSize
+DWORD:32768

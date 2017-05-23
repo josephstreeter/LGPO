@@ -1,0 +1,35 @@
+;1.4.1 Application: Maximum Log Size (KB)
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Application
+MaxSize
+DWORD:32768
+
+;1.4.2 Application:Retain old events
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Application
+Retention
+SZ:0
+
+;1.4.3 Security: Maximum Log Size (KB)
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Security
+MaxSize
+DWORD:81920
+
+;1.4.4 Security:Retain old events
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Security
+Retention
+SZ:0
+
+;1.4.5 System: Maximum Log Size (KB)
+Computer
+Software\Policies\Microsoft\Windows\EventLog\System
+MaxSize
+DWORD:32768
+
+;1.4.6 System: Retain old events
+Computer
+Software\Policies\Microsoft\Windows\EventLog\System
+Retention
+SZ:1

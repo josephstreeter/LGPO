@@ -1,0 +1,38 @@
+; ----------------------------------------------------------------------
+; PROCESSING COMPUTER POLICY
+; Source file:  Registry.pol
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoPublishingWizard
+DWORD:1
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoWebServices
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Messenger\Client
+CEIP
+DWORD:2
+
+Computer
+Software\Policies\Microsoft\SearchCompanion
+DisableContentFileUpdates
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows\DriverSearching
+DontSearchWindowsUpdate
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Printers
+DisableWebPnPDownload
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Printers
+DisableHTTPPrinting
+DWORD:1

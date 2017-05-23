@@ -1,0 +1,22 @@
+; ----------------------------------------------------------------------
+; PROCESSING COMPUTER POLICY
+; Source file:  Registry.pol
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services
+fPromptForPassword
+DWORD:1
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services
+MinEncryptionLevel
+DWORD:3
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services
+DisablePasswordSaving
+DWORD:1
+
+; COMPUTER POLICY SAVED.
+; ----------------------------------------------------------------------
+

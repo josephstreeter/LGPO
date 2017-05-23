@@ -1,0 +1,32 @@
+; ----------------------------------------------------------------------
+; PROCESSING COMPUTER POLICY
+; Source file:  Registry.pol
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+EnableSecureCredentialPrompting
+DWORD:1
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDriveTypeAutoRun
+DWORD:255
+
+Computer
+Software\Policies\Microsoft\Conferencing
+NoRDS
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+NoBackgroundPolicy
+DWORD:0
+
+Computer
+Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+NoGPOListChanges
+DWORD:0
+
+; COMPUTER POLICY SAVED.
+; ----------------------------------------------------------------------
+

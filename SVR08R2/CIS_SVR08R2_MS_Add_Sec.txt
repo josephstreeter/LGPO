@@ -1,0 +1,84 @@
+
+;1.12.1 Require a Password When a Computer Wakes (On Battery)
+Computer
+Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+DCSettingIndex
+DWORD:1
+
+;1.12.2 Require a Password When a Computer Wakes (Plugged In)
+Computer
+Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+ACSettingIndex
+DWORD:1
+
+;1.12.4 Turn off Data Execution Prevention for ExploreR
+Computer
+Software\Policies\Microsoft\Windows\Explorer
+NoDataExecutionPrevention
+DWORD:0
+
+;1.12.1 Do not process the legacy run list
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+DisableLocalMachineRun
+DWORD:1
+
+
+
+;1.12.2 Do not process the run once list
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+DisableLocalMachineRunOnce
+DWORD:1
+
+
+;1.12.3 Registry policy processing
+Computer
+Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+NoBackgroundPolicy
+DWORD:0
+
+;1.12.3 Registry policy processing
+Computer
+Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+NoGPOListChanges
+DWORD:0
+
+;1.12.4 Offer Remote Assistance
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fAllowUnsolicited
+DWORD:0
+
+;1.12.5 Solicited Remote Assistance
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fAllowToGetHelp
+DWORD:0
+
+;1.12.8 Turn off Autoplay
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDriveTypeAutoRun
+DWORD:255
+
+
+;1.12.9 Enumerate administrator accounts on elevation
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+EnumerateAdministrators
+DWORD:0
+
+
+;1.12.10 Require trusted path for credential entry
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+EnableSecureCredentialPrompting
+DWORD:1
+
+
+;1.12.11 Disable remote Desktop Sharing
+Computer
+Software\Policies\Microsoft\Conferencing
+NoRDS
+DWORD:1

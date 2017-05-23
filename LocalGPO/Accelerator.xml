@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Accelerator>
+    <Baseline Name="2007 Office Security" Switch="/Office" Local="1" Scenario="0" />
+    <Baseline Name="Internet Explorer 8" Switch="/IE8" Local="1" Scenario="0" />
+    <Baseline Name="Windows 7 Security" Switch="/Win7" Local="1" Scenario="1" />
+    <Baseline Name="Windows Vista Security" Switch="/Vista" Local="1" Scenario="1" />
+    <Baseline Name="Windows XP Security" Switch="/XP" Local="1" Scenario="1" />
+    <Baseline Name="Windows Server 2008" Switch="/WS08" Local="0" Scenario="1" />  
+    <Baseline Name="Windows Server 2003" Switch="/WS03" Local="0" Scenario="1" />
+    <Policy Name="VSG EC Domain Policy" Guide="Vista"/>
+    <Policy Name="VSG SSLF Domain Policy" Guide="Vista"/>
+    <Policy Name="XP EC Domain Policy" Guide="XP"/>
+    <Policy Name="XP SSLF Domain Policy" Guide="XP"/>
+</Accelerator>

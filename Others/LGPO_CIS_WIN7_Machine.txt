@@ -1,0 +1,246 @@
+;1.4.1 Application: Maximum Log Size (KB)
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Application
+MaxSize
+DWORD:32768
+
+;1.4.2 Application:Retain old events
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Application
+Retention
+SZ:0
+
+;1.4.3 Security: Maximum Log Size (KB)
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Security
+MaxSize
+DWORD:81920
+
+;1.4.4 Security:Retain old events
+Computer
+Software\Policies\Microsoft\Windows\EventLog\Security
+Retention
+SZ:0
+
+;1.4.5 System: Maximum Log Size (KB)
+Computer
+Software\Policies\Microsoft\Windows\EventLog\System
+MaxSize
+DWORD:32768
+
+;1.4.6 System: Retain old events
+Computer
+Software\Policies\Microsoft\Windows\EventLog\System
+Retention
+SZ:1
+
+
+
+
+
+;1.6.1 Configure Automatic Updates
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+AUOptions
+DWORD:3
+
+;1.6.4 Reschedule Automatic Updates scheduled installations
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+RescheduleWaitTimeEnabled
+DWORD:1
+
+;1.6.3 No auto-restart with logged on users for scheduled automatic updates installations
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+NoAutoRebootWithLoggedOnUsers
+DWORD:1
+
+
+
+
+
+;1.10.1 Always prompt for password upon connection
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fPromptForPassword
+DWORD:1
+
+
+;1.10.2 Set client connection encryption level
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+MinEncryptionLevel
+DWORD:3
+
+
+;1.10.3 Do not allow drive redirection
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableCdm
+DWORD:1
+
+;1.10.5 Do not allow passwords to be saved
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+DisablePasswordSaving
+DWORD:1
+
+
+
+
+
+
+;1.11.1 Turn off downloading of print drivers over HTTP
+Computer
+Software\Policies\Microsoft\Windows NT\Printers
+DisableWebPnPDownload
+DWORD:1
+
+
+;1.11.2 Turn off the "Publish to Web" task for files and folders
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoPublishingWizard
+DWORD:1
+
+
+;1.11.3Turn off Internet download for Web publishing and online ordering wizards
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoWebServices
+DWORD:1
+
+
+;1.11.4 Turn off printing over HTTP
+Computer
+Software\Policies\Microsoft\Windows NT\Printers
+DisableHTTPPrinting
+DWORD:1
+
+
+;1.11.5 Turn off Search Companion content file updates
+Computer
+Software\Policies\Microsoft\SearchCompanion
+DisableContentFileUpdates
+DWORD:1
+
+;1.11.6 Turn off the Windows Messenger Customer Experience Improvement Program
+Computer
+Software\Policies\Microsoft\Messenger\Client
+CEIP
+DWORD:2
+
+
+;1.11.7 Turn off Windows Update device driver searching
+Computer
+Software\Policies\Microsoft\Windows\DriverSearching
+DontSearchWindowsUpdate
+DWORD:1
+
+
+
+
+
+;1.12.1 Require a Password When a Computer Wakes (On Battery)
+Computer
+Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+DCSettingIndex
+DWORD:1
+
+;1.12.2 Require a Password When a Computer Wakes (Plugged In)
+Computer
+Software\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51
+ACSettingIndex
+DWORD:1
+
+;1.12.4 Turn off Data Execution Prevention for Explorer
+Computer
+Software\Policies\Microsoft\Windows\Explorer
+NoDataExecutionPrevention
+DWORD:0
+
+;1.12.5 Do not process the legacy run list
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+DisableLocalMachineRunOnce
+DWORD:1
+
+
+
+;1.12.6 Do not process the run once list
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+DisableLocalMachineRunOnce
+DWORD:1
+
+
+;1.12.7 Registry policy processing
+Computer
+Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+NoBackgroundPolicy
+DWORD:0
+
+;1.12.7 Registry policy processing
+Computer
+Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}
+NoGPOListChanges
+DWORD:0
+
+;1.12.8 Offer Remote Assistance
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fAllowUnsolicited
+DWORD:0
+
+;1.12.9 Solicited Remote Assistance
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fAllowToGetHelp
+DWORD:0
+
+;1.12.12 Turn off Autoplay
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDriveTypeAutoRun
+DWORD:255
+
+
+;1.12.13 Enumerate administrator accounts on elevation
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+EnumerateAdministrators
+DWORD:0
+
+
+;1.12.14 Require trusted path for credential entry
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\CredUI
+EnableSecureCredentialPrompting
+DWORD:1
+
+
+;1.12.15 Prevent the computer from joining a homegroup
+Computer
+Software\Policies\Microsoft\Windows\HomeGroup
+DisableHomeGroup
+DWORD:1
+
+
+
+
+
+
+;Wisc Kerberos Settings
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos
+MitRealms_Enabled
+DWORD:1
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\MitRealms
+LOGIN.WISC.EDU
+SZ:<f>0x00000008</f><k>kdc1.services.wisc.edu; kdc2.services.wisc.edu</k>
+
+

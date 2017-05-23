@@ -1,0 +1,18 @@
+
+;1.6.1 Configure Automatic Updates
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+AUOptions
+DWORD:3
+
+;1.6.4 Reschedule Automatic Updates scheduled installations
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+RescheduleWaitTimeEnabled
+DWORD:1
+
+;1.6.3 No auto-restart with logged on users for scheduled automatic updates installations
+Computer
+Software\Policies\Microsoft\Windows\WindowsUpdate\AU
+NoAutoRebootWithLoggedOnUsers
+DWORD:1
